@@ -3,7 +3,6 @@
 //  Stackoverflow
 //
 //  Created by Pau on 16/02/2016.
-//  Copyright © 2016 BlackSwan. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -13,7 +12,6 @@
 @end
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

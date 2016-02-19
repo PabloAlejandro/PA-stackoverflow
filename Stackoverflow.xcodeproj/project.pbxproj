@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		5F583D531C7330A8007435B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F583D521C7330A8007435B1 /* main.m */; };
 		5F583D561C7330A8007435B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F583D551C7330A8007435B1 /* AppDelegate.m */; };
-		5F583D591C7330A8007435B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F583D581C7330A8007435B1 /* ViewController.m */; };
 		5F583D5C1C7330A8007435B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F583D5A1C7330A8007435B1 /* Main.storyboard */; };
 		5F583D5E1C7330A8007435B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F583D5D1C7330A8007435B1 /* Assets.xcassets */; };
 		5F583D611C7330A8007435B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F583D5F1C7330A8007435B1 /* LaunchScreen.storyboard */; };
 		5F583D6C1C7330A8007435B1 /* StackoverflowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F583D6B1C7330A8007435B1 /* StackoverflowTests.m */; };
 		5F583D771C7330A8007435B1 /* StackoverflowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F583D761C7330A8007435B1 /* StackoverflowUITests.m */; };
+		5F583D871C7330F5007435B1 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F583D861C7330F5007435B1 /* DashboardViewController.m */; };
+		5F583D8C1C7332C8007435B1 /* ServerRequestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F583D8B1C7332C8007435B1 /* ServerRequestUtils.m */; };
+		5F583D901C733311007435B1 /* NSDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F583D8F1C733311007435B1 /* NSDictionary+Utils.m */; };
+		5F583D941C7338D5007435B1 /* StackoverflowRequestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F583D931C7338D5007435B1 /* StackoverflowRequestController.m */; };
+		5F583D981C733914007435B1 /* NetworkFactoryRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F583D971C733914007435B1 /* NetworkFactoryRequests.m */; };
+		5F583D9C1C733AAB007435B1 /* EntryParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F583D9B1C733AAB007435B1 /* EntryParams.m */; };
+		5F583DA21C733CBE007435B1 /* StackoverflowRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F583DA11C733CBE007435B1 /* StackoverflowRequestManager.m */; };
+		5F583DA51C734884007435B1 /* DashboardTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F583DA41C734884007435B1 /* DashboardTableController.m */; };
+		5F583DA91C734D10007435B1 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F583DA81C734D10007435B1 /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +47,6 @@
 		5F583D521C7330A8007435B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5F583D541C7330A8007435B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5F583D551C7330A8007435B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5F583D571C7330A8007435B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5F583D581C7330A8007435B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5F583D5B1C7330A8007435B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F583D5D1C7330A8007435B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F583D601C7330A8007435B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,24 @@
 		5F583D721C7330A8007435B1 /* StackoverflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackoverflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F583D761C7330A8007435B1 /* StackoverflowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackoverflowUITests.m; sourceTree = "<group>"; };
 		5F583D781C7330A8007435B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F583D851C7330F5007435B1 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DashboardViewController.h; path = Dashboard/DashboardViewController.h; sourceTree = "<group>"; };
+		5F583D861C7330F5007435B1 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DashboardViewController.m; path = Dashboard/DashboardViewController.m; sourceTree = "<group>"; };
+		5F583D8A1C7332C8007435B1 /* ServerRequestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerRequestUtils.h; path = Utils/ServerRequestUtils/ServerRequestUtils.h; sourceTree = "<group>"; };
+		5F583D8B1C7332C8007435B1 /* ServerRequestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerRequestUtils.m; path = Utils/ServerRequestUtils/ServerRequestUtils.m; sourceTree = "<group>"; };
+		5F583D8E1C733311007435B1 /* NSDictionary+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Utils.h"; path = "Utils/NSDictionary+Utils/NSDictionary+Utils.h"; sourceTree = "<group>"; };
+		5F583D8F1C733311007435B1 /* NSDictionary+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Utils.m"; path = "Utils/NSDictionary+Utils/NSDictionary+Utils.m"; sourceTree = "<group>"; };
+		5F583D921C7338D5007435B1 /* StackoverflowRequestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StackoverflowRequestController.h; path = Utils/StackoverflowRequest/StackoverflowRequestController.h; sourceTree = "<group>"; };
+		5F583D931C7338D5007435B1 /* StackoverflowRequestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StackoverflowRequestController.m; path = Utils/StackoverflowRequest/StackoverflowRequestController.m; sourceTree = "<group>"; };
+		5F583D961C733914007435B1 /* NetworkFactoryRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkFactoryRequests.h; path = Utils/NetworkFactoryRequests/NetworkFactoryRequests.h; sourceTree = "<group>"; };
+		5F583D971C733914007435B1 /* NetworkFactoryRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkFactoryRequests.m; path = Utils/NetworkFactoryRequests/NetworkFactoryRequests.m; sourceTree = "<group>"; };
+		5F583D9A1C733AAB007435B1 /* EntryParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntryParams.h; path = Utils/EntryParams/EntryParams.h; sourceTree = "<group>"; };
+		5F583D9B1C733AAB007435B1 /* EntryParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EntryParams.m; path = Utils/EntryParams/EntryParams.m; sourceTree = "<group>"; };
+		5F583DA01C733CBE007435B1 /* StackoverflowRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StackoverflowRequestManager.h; path = Utils/StackoverflowRequest/StackoverflowRequestManager.h; sourceTree = "<group>"; };
+		5F583DA11C733CBE007435B1 /* StackoverflowRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StackoverflowRequestManager.m; path = Utils/StackoverflowRequest/StackoverflowRequestManager.m; sourceTree = "<group>"; };
+		5F583DA31C734884007435B1 /* DashboardTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DashboardTableController.h; path = Dashboard/DashboardTableController.h; sourceTree = "<group>"; };
+		5F583DA41C734884007435B1 /* DashboardTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DashboardTableController.m; path = Dashboard/DashboardTableController.m; sourceTree = "<group>"; };
+		5F583DA71C734D10007435B1 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailsViewController.h; path = Details/DetailsViewController.h; sourceTree = "<group>"; };
+		5F583DA81C734D10007435B1 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailsViewController.m; path = Details/DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +105,7 @@
 		5F583D451C7330A8007435B1 = {
 			isa = PBXGroup;
 			children = (
+				5F583D881C7330F9007435B1 /* Utils */,
 				5F583D501C7330A8007435B1 /* Stackoverflow */,
 				5F583D6A1C7330A8007435B1 /* StackoverflowTests */,
 				5F583D751C7330A8007435B1 /* StackoverflowUITests */,
@@ -101,10 +126,10 @@
 		5F583D501C7330A8007435B1 /* Stackoverflow */ = {
 			isa = PBXGroup;
 			children = (
+				5F583D841C7330E6007435B1 /* Dashboard */,
+				5F583DA61C734D00007435B1 /* Details */,
 				5F583D541C7330A8007435B1 /* AppDelegate.h */,
 				5F583D551C7330A8007435B1 /* AppDelegate.m */,
-				5F583D571C7330A8007435B1 /* ViewController.h */,
-				5F583D581C7330A8007435B1 /* ViewController.m */,
 				5F583D5A1C7330A8007435B1 /* Main.storyboard */,
 				5F583D5D1C7330A8007435B1 /* Assets.xcassets */,
 				5F583D5F1C7330A8007435B1 /* LaunchScreen.storyboard */,
@@ -138,6 +163,85 @@
 				5F583D781C7330A8007435B1 /* Info.plist */,
 			);
 			path = StackoverflowUITests;
+			sourceTree = "<group>";
+		};
+		5F583D841C7330E6007435B1 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				5F583D851C7330F5007435B1 /* DashboardViewController.h */,
+				5F583D861C7330F5007435B1 /* DashboardViewController.m */,
+				5F583DA31C734884007435B1 /* DashboardTableController.h */,
+				5F583DA41C734884007435B1 /* DashboardTableController.m */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		5F583D881C7330F9007435B1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5F583D991C733A97007435B1 /* EntryParams */,
+				5F583D951C73390A007435B1 /* NetworkFactoryRequests */,
+				5F583D911C7338CB007435B1 /* StackoverflowRequest */,
+				5F583D8D1C73330A007435B1 /* NSDictionary+Utils */,
+				5F583D891C7332C1007435B1 /* ServerRequestUtils */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		5F583D891C7332C1007435B1 /* ServerRequestUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5F583D8A1C7332C8007435B1 /* ServerRequestUtils.h */,
+				5F583D8B1C7332C8007435B1 /* ServerRequestUtils.m */,
+			);
+			name = ServerRequestUtils;
+			sourceTree = "<group>";
+		};
+		5F583D8D1C73330A007435B1 /* NSDictionary+Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5F583D8E1C733311007435B1 /* NSDictionary+Utils.h */,
+				5F583D8F1C733311007435B1 /* NSDictionary+Utils.m */,
+			);
+			name = "NSDictionary+Utils";
+			sourceTree = "<group>";
+		};
+		5F583D911C7338CB007435B1 /* StackoverflowRequest */ = {
+			isa = PBXGroup;
+			children = (
+				5F583DA01C733CBE007435B1 /* StackoverflowRequestManager.h */,
+				5F583DA11C733CBE007435B1 /* StackoverflowRequestManager.m */,
+				5F583D921C7338D5007435B1 /* StackoverflowRequestController.h */,
+				5F583D931C7338D5007435B1 /* StackoverflowRequestController.m */,
+			);
+			name = StackoverflowRequest;
+			sourceTree = "<group>";
+		};
+		5F583D951C73390A007435B1 /* NetworkFactoryRequests */ = {
+			isa = PBXGroup;
+			children = (
+				5F583D961C733914007435B1 /* NetworkFactoryRequests.h */,
+				5F583D971C733914007435B1 /* NetworkFactoryRequests.m */,
+			);
+			name = NetworkFactoryRequests;
+			sourceTree = "<group>";
+		};
+		5F583D991C733A97007435B1 /* EntryParams */ = {
+			isa = PBXGroup;
+			children = (
+				5F583D9A1C733AAB007435B1 /* EntryParams.h */,
+				5F583D9B1C733AAB007435B1 /* EntryParams.m */,
+			);
+			name = EntryParams;
+			sourceTree = "<group>";
+		};
+		5F583DA61C734D00007435B1 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				5F583DA71C734D10007435B1 /* DetailsViewController.h */,
+				5F583DA81C734D10007435B1 /* DetailsViewController.m */,
+			);
+			name = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +374,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F583D591C7330A8007435B1 /* ViewController.m in Sources */,
+				5F583D901C733311007435B1 /* NSDictionary+Utils.m in Sources */,
+				5F583D8C1C7332C8007435B1 /* ServerRequestUtils.m in Sources */,
+				5F583DA91C734D10007435B1 /* DetailsViewController.m in Sources */,
+				5F583D981C733914007435B1 /* NetworkFactoryRequests.m in Sources */,
+				5F583D871C7330F5007435B1 /* DashboardViewController.m in Sources */,
+				5F583DA21C733CBE007435B1 /* StackoverflowRequestManager.m in Sources */,
+				5F583DA51C734884007435B1 /* DashboardTableController.m in Sources */,
 				5F583D561C7330A8007435B1 /* AppDelegate.m in Sources */,
+				5F583D941C7338D5007435B1 /* StackoverflowRequestController.m in Sources */,
+				5F583D9C1C733AAB007435B1 /* EntryParams.m in Sources */,
 				5F583D531C7330A8007435B1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,8 +526,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Stackoverflow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.blackswan.Stackoverflow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.Stackoverflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -425,8 +538,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Stackoverflow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.blackswan.Stackoverflow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.Stackoverflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -437,7 +551,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = StackoverflowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.blackswan.StackoverflowTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.StackoverflowTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stackoverflow.app/Stackoverflow";
 			};
@@ -449,7 +563,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = StackoverflowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.blackswan.StackoverflowTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.StackoverflowTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stackoverflow.app/Stackoverflow";
 			};
@@ -460,7 +574,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = StackoverflowUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.blackswan.StackoverflowUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.StackoverflowUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = Stackoverflow;
 				USES_XCTRUNNER = YES;
@@ -472,7 +586,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = StackoverflowUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.blackswan.StackoverflowUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.StackoverflowUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = Stackoverflow;
 				USES_XCTRUNNER = YES;
@@ -498,6 +612,7 @@
 				5F583D7D1C7330A8007435B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F583D7E1C7330A8007435B1 /* Build configuration list for PBXNativeTarget "StackoverflowTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +621,7 @@
 				5F583D801C7330A8007435B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F583D811C7330A8007435B1 /* Build configuration list for PBXNativeTarget "StackoverflowUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +630,7 @@
 				5F583D831C7330A8007435B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
